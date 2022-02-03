@@ -23,6 +23,8 @@
 module Top(
 	input logic clk12Mhz,
 	input logic [1:0] btns,
+	input logic [15:0] address,
+	inout logic [7:0] data,
 	output logic [1:0] leds,
 	output logic [2:0] rgbLed,
 	output logic phi2_out
